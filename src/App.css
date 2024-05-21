@@ -1,0 +1,11 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #e20001;
+    z-index: 1;
+    transform: translateX(-100%);
+    min-height: 100vh;
+    overflow: hidden;
+}

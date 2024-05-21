@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+.text > h2{
+    background: linear-gradient(
+        to right,
+        rgb(255, 255, 255) 50%,
+        rgb(37, 37, 37) 50%
+      );
+      background-size: 200% 100%;
+      background-position-x: 100%;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      margin-top: -10px;
+      margin-left: 50px;
+}
+.text_slider{
+  animation: emeke 10s infinite linear;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes emeke {
+    0%{
+      transform: translate(100%, 0);
+    }
+    100%{
+      transform: translate(-100%, 0);
+    }
+}
+.text_sliderr{
+  animation: ofuzor 10s infinite linear;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes ofuzor {
+    0%{
+      transform: translate(-100%, 0);
+    }
+    100%{
+      transform: translate(100%, 0);
+    }
+}
